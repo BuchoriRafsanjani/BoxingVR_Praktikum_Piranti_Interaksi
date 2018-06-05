@@ -52,4 +52,9 @@ public class RespondButton : MonoBehaviour
         imgButton.color = Click;
         SceneManager.LoadScene(nameScene);
     }
+
+    public void SetAttack()
+    {
+        ScoringController.GetInstance().addScore();
+    }
 }

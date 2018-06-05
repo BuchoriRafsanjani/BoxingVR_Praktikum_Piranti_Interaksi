@@ -53,6 +53,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4551685970414038}
+  - component: {fileID: 114387480025658092}
   m_Layer: 0
   m_Name: sarung tinju
   m_TagString: Untagged
@@ -80,8 +81,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1875163109630900}
   m_LocalRotation: {x: 0.4304593, y: 0.4304593, z: 0.56098557, w: 0.56098557}
-  m_LocalPosition: {x: 0.28, y: -0, z: -0}
-  m_LocalScale: {x: 0.42021263, y: 0.42021257, z: 0.42021257}
+  m_LocalPosition: {x: 0.28000006, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4047409260498086}
   - {fileID: 4944843371013752}
@@ -95,8 +96,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1236523008369580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.83, z: 0.82}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.000015378, y: 3.3601, z: 0.82}
+  m_LocalScale: {x: 1.8370085, y: 1.837006, z: 1.837006}
   m_Children: []
   m_Father: {fileID: 4551685970414038}
   m_RootOrder: 1
@@ -110,6 +111,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -125,6 +127,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -152,6 +155,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.251945, y: 1.9609791, z: 0.98040605}
   m_Center: {x: 0.016972482, y: 1.4466696, z: 0.838769}
+--- !u!114 &114387480025658092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1875163109630900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b773b1ca9015da4682abdb418d40ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  permukaan: {fileID: 0}
 --- !u!136 &136119593638662010
 CapsuleCollider:
   m_ObjectHideFlags: 1
